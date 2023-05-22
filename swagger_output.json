@@ -23,5 +23,17 @@
   "produces": [
     "application/json"
   ],
-  "paths": {}
+  "paths": {
+    "/api/users": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
 }
